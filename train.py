@@ -137,7 +137,7 @@ if __name__ == "__main__":
                                'Call Closed Datetime'])
 
     # split by date
-    def get_subset(frame, mask, n=20_000, seed=42):
+    def get_subset(frame, mask, n=50_000, seed=42):
         subset = frame[mask]
         take   = min(n, len(subset))            # don’t error if < n rows
         return subset.sample(n=take, random_state=seed)
@@ -211,6 +211,7 @@ if __name__ == "__main__":
     X_train = train_df
     X_dev = dev_df
     
+    from catboost import CatBoostClassifier, Pool
     import optuna, lightgbm as lgb, numpy as np
     from sklearn.model_selection import StratifiedKFold
     from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
@@ -310,8 +311,38 @@ if __name__ == "__main__":
         ],
     )
 
+    # A. Train CatBoost on the *numeric* matrix you have (categoricals are already 
+    #    label-encoded, so we treat everything as numeric).
+    cat_params = {
+        "loss_function": "Logloss",
+        "eval_metric":   "Recall",
+        "iterations":    2000,
+        "learning_rate": 0.05,
+        "depth":         8,
+        "random_seed":   42,
+        "verbose":       200,
+        "scale_pos_weight": (y_train==0).sum()/(y_train==1).sum()
+    }
+
+    train_pool = Pool(X_train, label=y_train)
+    dev_pool   = Pool(X_dev,   label=y_dev)
+
+    cb_clf = CatBoostClassifier(**cat_params)
+    cb_clf.fit(train_pool,
+            eval_set           = dev_pool,
+            early_stopping_rounds = 200)
+
+    # B. Get dev-set probabilities from BOTH models
+    dev_proba_cb  = cb_clf.predict_proba(X_dev)[:, 1]           # CatBoost
+    dev_proba_lgb = gbm_final.predict(X_dev,
+                                    num_iteration=gbm_final.best_iteration)
+
+    # C. Simple weighted average ensemble
+    ALPHA = 0.2      # 0 = only LightGBM, 1 = only CatBoost
+    dev_proba_ens = ALPHA * dev_proba_cb + (1 - ALPHA) * dev_proba_lgb
+
     # 5. evaluate on dev set
-    dev_proba  = gbm_final.predict(X_dev, num_iteration=gbm_final.best_iteration)
+    dev_proba  = dev_proba_ens
     y_pred_dev = (dev_proba > best_thr).astype(int)
 
     final_metrics = {
@@ -363,8 +394,10 @@ if __name__ == "__main__":
     test_df.fillna(0, inplace=True)
 
     # Predict and write file
-    test_proba = gbm_final.predict(test_df, num_iteration=gbm_final.best_iteration)
-    final_test_pred = (test_proba > best_thr).astype(int)
+    test_proba_cb  = cb_clf.predict_proba(test_df)[:, 1]
+    test_proba_lgb = gbm_final.predict(test_df, num_iteration=gbm_final.best_iteration)
+    test_proba_ens = ALPHA * test_proba_cb + (1 - ALPHA) * test_proba_lgb
+    final_test_pred = (test_proba_ens > best_thr).astype(int)
 
     with open('predictions.txt', 'w') as f:
         for p in final_test_pred:
