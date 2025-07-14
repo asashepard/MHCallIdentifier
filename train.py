@@ -1,4 +1,5 @@
 ## if you see this, add a feature that measures the length of the numbers (i.e. number of decimals)
+import time
 from typing import Any, Dict
 import pandas as pd
 import numpy as np
@@ -210,6 +211,28 @@ if __name__ == "__main__":
     dev_df.fillna(0, inplace=True)
     X_train = train_df
     X_dev = dev_df
+
+    # Logistic regression baseline
+    t0 = time.time()
+    log_reg = LogisticRegression(
+        max_iter=1000,
+        solver="lbfgs",
+        n_jobs=-1,
+        class_weight="balanced"        # handles class imbalance automatically
+    )
+    log_reg.fit(X_train, y_train)
+    dev_pred = log_reg.predict(X_dev)
+
+    base_metrics = {
+        "accuracy":  accuracy_score(y_dev, dev_pred),
+        "precision": precision_score(y_dev, dev_pred, zero_division=0),
+        "recall":    recall_score(y_dev, dev_pred,  zero_division=0),
+        "f1":        f1_score(y_dev, dev_pred,      zero_division=0)
+    }
+    print(f"\nLogReg baseline (fit {time.time()-t0:.1f}s):")
+    for k, v in base_metrics.items():
+        print(f"{k.capitalize():9}: {v:.4f}")
+    print("-"*60)
     
     from catboost import CatBoostClassifier, Pool
     import optuna, lightgbm as lgb, numpy as np
