@@ -1,0 +1,1503 @@
+Austin PD Mental-Health vs Non-Mental-Health Feature Differences
+======================================================================
+
+Feature: Council District
+  Numeric: mean(MH=1) = 5.020, mean(MH=0) = 4.871
+  Δ mean           = 0.148
+
+Feature: Priority Level
+  Categorical frequency (% rows)
+    Priority 0: MH=1 11.18% | MH=0 12.80% | Δ -1.62%
+    Priority 1: MH=1 31.89% | MH=0 17.13% | Δ 14.75%
+    Priority 2: MH=1 37.00% | MH=0 51.66% | Δ -14.66%
+    Priority 3: MH=1 19.93% | MH=0 18.40% | Δ 1.53%
+
+Feature: Response Year
+  Numeric: mean(MH=1) = 2021.792, mean(MH=0) = 2021.995
+  Δ mean           = -0.203
+
+Feature: Response Month
+  Categorical frequency (% rows)
+    Apr: MH=1 8.57% | MH=0 8.11% | Δ 0.46%
+    Aug: MH=1 8.63% | MH=0 8.69% | Δ -0.05%
+    Dec: MH=1 7.37% | MH=0 8.01% | Δ -0.64%
+    Feb: MH=1 7.89% | MH=0 7.94% | Δ -0.04%
+    Jan: MH=1 7.97% | MH=0 8.16% | Δ -0.18%
+    Jul: MH=1 8.53% | MH=0 8.73% | Δ -0.20%
+    Jun: MH=1 8.67% | MH=0 8.56% | Δ 0.11%
+    Mar: MH=1 9.18% | MH=0 8.59% | Δ 0.59%
+    May: MH=1 9.36% | MH=0 8.82% | Δ 0.54%
+    Nov: MH=1 7.37% | MH=0 7.83% | Δ -0.47%
+    Oct: MH=1 7.94% | MH=0 8.31% | Δ -0.36%
+    Sep: MH=1 8.53% | MH=0 8.27% | Δ 0.26%
+
+Feature: Response Day of Week
+  Categorical frequency (% rows)
+    Fri: MH=1 14.92% | MH=0 15.06% | Δ -0.14%
+    Mon: MH=1 14.69% | MH=0 14.24% | Δ 0.44%
+    Sat: MH=1 13.33% | MH=0 14.80% | Δ -1.47%
+    Sun: MH=1 13.36% | MH=0 14.18% | Δ -0.81%
+    Thu: MH=1 14.36% | MH=0 13.97% | Δ 0.39%
+    Tue: MH=1 14.82% | MH=0 13.78% | Δ 1.04%
+    Wed: MH=1 14.51% | MH=0 13.97% | Δ 0.55%
+
+Feature: Response Hour
+  Numeric: mean(MH=1) = 13.240, mean(MH=0) = 12.801
+  Δ mean           = 0.439
+
+Feature: Sector
+  Categorical frequency (% rows)
+    Adam: MH=1 11.25% | MH=0 11.60% | Δ -0.35%
+    Airport: MH=1 0.25% | MH=0 1.68% | Δ -1.43%
+    Baker: MH=1 13.10% | MH=0 10.42% | Δ 2.68%
+    Charlie: MH=1 10.31% | MH=0 11.02% | Δ -0.70%
+    David: MH=1 15.43% | MH=0 13.01% | Δ 2.42%
+    Edward: MH=1 12.80% | MH=0 14.91% | Δ -2.11%
+    Frank: MH=1 12.04% | MH=0 11.95% | Δ 0.09%
+    George: MH=1 6.21% | MH=0 5.17% | Δ 1.04%
+    Henry: MH=1 8.50% | MH=0 10.00% | Δ -1.50%
+    Ida: MH=1 10.10% | MH=0 10.24% | Δ -0.15%
+    Other: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+
+Feature: Initial Problem Description
+  Categorical frequency (% rows)
+    68a Inspection: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    911 Cell Phone Hang Ups: MH=1 0.00% | MH=0 0.01% | Δ -0.00%
+    911 Transfer To Apd: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    A W O L: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Abandnd Vehicle: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Abandoned Property: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Abandoned Refrigerator: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Abandoned Vehicle: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Abuse Of 911: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Accidental Drug Overdose: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Agency Assist Hs: MH=1 0.04% | MH=0 0.14% | Δ -0.10%
+    Agg Aslt Enhanc Strangl/Suffo: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Agg Aslt Strangle/Suffocate: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Agg Assault: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Agg Assault Fam/Date Viol: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Agg Assault Motor Vehicle: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Agg Kidnapping: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Agg Robbery By Assault: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Agg Sex Aslt Of Child/Object: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Aircraft Alert 2: MH=1 0.05% | MH=0 0.04% | Δ 0.00%
+    Aircraft Alert 3: MH=1 0.00% | MH=0 0.03% | Δ -0.03%
+    Aircraft Diversion: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Airfield Ops Area Viol: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Airport - Assist Federal Agen: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Airport - Federal Viol: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Airport - Found Marijuana: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Airport - Suspicious Person: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Airport - Suspicious Pkg/Item: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Airport - Suspicious Veh: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Airport - Tsa Assist: MH=1 0.00% | MH=0 0.03% | Δ -0.03%
+    Airport - Ua Faa Viol: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Airport Assist: MH=1 0.05% | MH=0 0.46% | Δ -0.40%
+    Airport Info: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Airport Unattended Bag / Lugg: MH=1 0.00% | MH=0 0.10% | Δ -0.10%
+    Airport-Criminal Trespass: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Aisd: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Alarm Burglar: MH=1 0.43% | MH=0 10.19% | Δ -9.76%
+    Alarm Dv: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Alarm Glass Break: MH=1 0.01% | MH=0 0.26% | Δ -0.25%
+    Alarm Gps Violation: MH=1 0.00% | MH=0 0.02% | Δ -0.02%
+    Alarm Other: MH=1 0.01% | MH=0 0.22% | Δ -0.21%
+    Alarm Robbery: MH=1 0.04% | MH=0 0.80% | Δ -0.76%
+    Alarm Screening Checkpoint: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Animal Bite: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Animal Service: MH=1 0.01% | MH=0 0.18% | Δ -0.17%
+    Animal Urgent: MH=1 0.13% | MH=0 0.85% | Δ -0.72%
+    Arson With Bodily Injury: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Assault By Contact: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Assault By Contact Fam/Dating: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Assault By Contact-Sexual Nat: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Assault By Threat: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Assault Info Fam Viol: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Assault Information: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Assault Juvenile Vs Juvenile: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Assault On Peace Officer: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Assault On Public Servant: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Assault W/Injury-Fam/Date Vio: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Assault With Injury: MH=1 0.00% | MH=0 0.01% | Δ -0.00%
+    Assist Afd: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Assist Aisd: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Assist Apd: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Assist Boat: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Assist City Department: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Assist Code 3: MH=1 0.05% | MH=0 0.11% | Δ -0.06%
+    Assist Complainant: MH=1 0.01% | MH=0 0.07% | Δ -0.06%
+    Assist Ems: MH=1 0.05% | MH=0 0.08% | Δ -0.03%
+    Assist Fire Department: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Assist Motorist: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Assist Motorist/Public: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Assist Non Emergency: MH=1 2.40% | MH=0 2.28% | Δ 0.12%
+    Assist Other  Agency: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Assist Other Agency: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Assist Other City: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Assist Other Police Agency: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Att Agg Sexual Assault Childp: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Att Arson: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Att Auto Theft: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Att Theft: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Attempted Suicide Hs: MH=1 2.73% | MH=0 0.00% | Δ 2.73%
+    Auto Salvage Dealer: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Auto Theft: MH=1 0.05% | MH=0 0.55% | Δ -0.50%
+    Auto Theft Bait Vehicle: MH=1 0.00% | MH=0 0.05% | Δ -0.04%
+    Auto Theft Information: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Auto Theft Recovery: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Auto Theft Service: MH=1 0.17% | MH=0 2.97% | Δ -2.80%
+    Bomb Hs: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Bomb Threat Urgent: MH=1 0.04% | MH=0 0.03% | Δ 0.01%
+    Burg Non Residence Sheds: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Burg Of Residence Fam/Date: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Burglary Hs: MH=1 0.32% | MH=0 0.46% | Δ -0.14%
+    Burglary Information: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Burglary Non Res Service: MH=1 0.02% | MH=0 0.15% | Δ -0.14%
+    Burglary Non Residence: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Burglary Of Residence: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Burglary Of Vehicle: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Burglary Res Service: MH=1 0.08% | MH=0 0.13% | Δ -0.05%
+    Burglary Urgent: MH=1 0.13% | MH=0 0.43% | Δ -0.29%
+    Burglary Vehicle: MH=1 0.06% | MH=0 0.23% | Δ -0.17%
+    Burglary/Non-Residence: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Burglary/Vehicle: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Cadet Training: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Call From Tcso - Emergency: MH=1 0.11% | MH=0 0.13% | Δ -0.03%
+    Call From Tcso - Non Emergenc: MH=1 0.08% | MH=0 0.13% | Δ -0.04%
+    Camping In Park: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Cancel This Call: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Ccd / Counselor: MH=1 1.17% | MH=0 0.00% | Δ 1.17%
+    Ccd / Counselor / Tcso: MH=1 0.04% | MH=0 0.00% | Δ 0.04%
+    Charitable Solicitations: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Check Welfare: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Check Welfare Service: MH=1 13.63% | MH=0 2.72% | Δ 10.92%
+    Check Welfare Urgent: MH=1 20.72% | MH=0 4.36% | Δ 16.36%
+    Checking Area: MH=1 0.03% | MH=0 0.01% | Δ 0.02%
+    Child Abuse Info: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Child Endangerment: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Cmv Inspection: MH=1 0.01% | MH=0 0.00% | Δ 0.00%
+    Collision: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Collision City Vehicle: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Collision With Injury: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Collision/Leaving The Scene: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Community Pol - Bsn/Res Visit: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Community Pol - Meeting: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Community Pol - Special Event: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Community Police: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Covid-19 Face Mask Viol: MH=1 0.02% | MH=0 0.05% | Δ -0.04%
+    Covid-19 Gathering Violation: MH=1 0.01% | MH=0 0.07% | Δ -0.06%
+    Crash Blue Form: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Crash Cr3: MH=1 0.00% | MH=0 0.02% | Δ -0.02%
+    Crash Hs: MH=1 0.14% | MH=0 2.44% | Δ -2.30%
+    Crash Leaving The Scene: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Crash Private Property: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Crash Service: MH=1 0.10% | MH=0 1.81% | Δ -1.71%
+    Crash Urgent: MH=1 0.21% | MH=0 3.52% | Δ -3.31%
+    Crash With City Vehicle: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Credit Card Abuse/Forgery: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Creditcard/Debitcard Abuse/Oth: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Crim Misch/ Arson: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Crim Misch/Prop Damage/Fv: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Crim Mischief: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Crim Mischief<1500: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Crim Trespass: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Crim Trespass Transient: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Criminal Apprehension Team: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Criminal Conspiracy: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Criminal Mischief: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Criminal Mischief By Arson: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Criminal Solicitation: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Criminal Solicitation Of Mino: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Criminal Trespass: MH=1 0.01% | MH=0 0.03% | Δ -0.02%
+    Criminal Trespass Notice: MH=1 0.01% | MH=0 0.08% | Δ -0.07%
+    Criminal Trespass Notice - Co: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Criminal Trespass/In Vehicle: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Cruelty Animals: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Cruelty To Animals: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Custody Arrest Traffic Warran: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Damage City Prop: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Damage City Vehicle: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Damage To City Property Info: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Dangers Drug Vio: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Deadly Conduct: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Deceased Person: MH=1 0.03% | MH=0 0.06% | Δ -0.03%
+    Decoy Vehicle: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Deliver Controlled Sub/Syn Na: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Deliver Message: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Directed Patrol: MH=1 0.05% | MH=0 0.06% | Δ -0.01%
+    Dist Stand By: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Disturbance - Vehicle: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Disturbance Hs: MH=1 2.97% | MH=0 3.86% | Δ -0.90%
+    Disturbance Other: MH=1 10.83% | MH=0 8.67% | Δ 2.16%
+    Disturbance Service: MH=1 1.08% | MH=0 1.44% | Δ -0.35%
+    Disturbance Urgent: MH=1 3.08% | MH=0 2.50% | Δ 0.58%
+    Disturbance Vehicle Urgent: MH=1 0.06% | MH=0 0.22% | Δ -0.16%
+    Disturbance W/Gun: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Disturbance/ Other: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Doc / C.o. Violation: MH=1 0.51% | MH=0 2.97% | Δ -2.46%
+    Doc Discharge Gun In Public: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Doc- Noise: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Doc-Exposure: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Drugs: MH=1 0.16% | MH=0 0.37% | Δ -0.21%
+    Drugs Service: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Dwi: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Dwi .15 Bac Or Above: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Dwi / Felony: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Dwi/2nd Offense: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Dwi/Dre Drug Recognition Exp: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Edp Commitment: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Edp Emotionally Disturbed Per: MH=1 0.01% | MH=0 0.00% | Δ 0.01%
+    Edp Intervention: MH=1 0.01% | MH=0 0.00% | Δ 0.01%
+    Edp Intervention W/Contact: MH=1 0.02% | MH=0 0.00% | Δ 0.02%
+    Edp No Contact: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Edp Voluntary: MH=1 0.01% | MH=0 0.00% | Δ 0.01%
+    Eluding: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Emerg Det / Firearms Seizure: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Emergency Detention: MH=1 0.07% | MH=0 0.00% | Δ 0.07%
+    Engaging In Organized Crime: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Escort Other: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Evading / Vehicle: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Evading Arrest: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Evading Foot: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Exploitation Of Child/Elderly: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Explosive Ordinance Disposal: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Fail Reg Sex Off: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Failure Stop And Render Aid: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Failure To Identify: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    False Alarm Or Report: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    False Alarm/ Burg: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    False Burglar Alarm: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    False Report To Police: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    False Robbery Alarm: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Family Disturbance: MH=1 0.01% | MH=0 0.01% | Δ -0.00%
+    Family Disturbance/Parental: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Federal Aviation Violation: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Federal Viol/Oth: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Fer-Ems: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Fer-Tcso: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Ficticious Dl / Id Card: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Ficticious License Plate: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Fictitious License Plate: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Fireworks Ordinance Violation: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Fireworks Viol: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Flag Down: MH=1 0.01% | MH=0 0.01% | Δ -0.00%
+    Flagged Down: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Flooded Roadway: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Fo Card: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Follow Up Cruelty To Animals: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Follow Up Investigation: MH=1 0.04% | MH=0 0.07% | Δ -0.02%
+    Forgery And Passing: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Forgery Other: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Forgery/Altering: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Found Adult: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Found C/S: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Found Child: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Found Controlled Substance: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Found Firearm: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Found License Plate: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Found Property: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Found/Abandoned Hazardous: MH=1 0.05% | MH=0 0.41% | Δ -0.36%
+    Fr-Pflugerville: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Fraud Other: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Funeral Escort: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Gambling: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Gang Info: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Grass Fire: MH=1 0.00% | MH=0 0.01% | Δ -0.00%
+    Gun Hs: MH=1 0.22% | MH=0 0.36% | Δ -0.14%
+    Gun Other: MH=1 0.08% | MH=0 0.19% | Δ -0.11%
+    Gun Urgent: MH=1 0.14% | MH=0 0.27% | Δ -0.13%
+    Halo: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Hang-Up Misdial: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Hang-Up Mobile: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Hang-Up Residence: MH=1 0.02% | MH=0 0.11% | Δ -0.09%
+    Hang-Ups: MH=1 0.04% | MH=0 0.28% | Δ -0.25%
+    Harassment: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Harassment Of Public Servant: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Hazard Trfc Viol: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Hero - Traffic Hazard: MH=1 0.01% | MH=0 0.01% | Δ -0.00%
+    Homeland Security-Dp: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Human Trafficking Info: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Icy Roadway: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Id Property Crimes: MH=1 0.02% | MH=0 0.19% | Δ -0.17%
+    Identity Theft: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Illum Aircraft Intense Light: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Impound/Repo Veh Non-Apd: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Impounded Animal: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Impounded Vehicle: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Improper Contact/Sex Aslt Vic: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Indec  Child/Fv: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Indecency W/ A Child Contact: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Indecent Exposur: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Information: MH=1 0.65% | MH=0 0.49% | Δ 0.16%
+    Informational Call: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Inj To Elderly Fam/Date Viol: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Injury To A Child: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Injury To Elderly Person: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Intelligence Info-Airport: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Intrfere With Child Custody: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Inv/Mansltr-Trfc: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Jail Intell: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Kidnapping Abduction Hs: MH=1 0.06% | MH=0 0.08% | Δ -0.02%
+    Leo Verify: MH=1 0.00% | MH=0 0.02% | Δ -0.01%
+    Loiter In Park: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Loose Livestock: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Lost Property: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Mail Theft: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Manpads: MH=1 0.01% | MH=0 0.01% | Δ 0.01%
+    Manufacturing C/S: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Mental Transfer/O.p.c.: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Mental Trnfr/ Opc: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Mischief / Vandalism: MH=1 0.55% | MH=0 0.54% | Δ 0.01%
+    Missing Adult: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Missing Hs: MH=1 0.58% | MH=0 0.16% | Δ 0.43%
+    Missing Service: MH=1 0.70% | MH=0 0.67% | Δ 0.03%
+    Narcotics Information: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Nature Unknown: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Nature Unknown Urgent: MH=1 3.01% | MH=0 3.72% | Δ -0.72%
+    Non Emergency Refusal: MH=1 0.03% | MH=0 0.09% | Δ -0.06%
+    Obstruction Highway Passage: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Obvious Threat-Etd: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Officer Needs Assistance Hs: MH=1 0.00% | MH=0 0.01% | Δ -0.00%
+    On Site Call: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    On Site Incident: MH=1 0.02% | MH=0 0.08% | Δ -0.07%
+    Online Impersonation: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Onstar Emergency: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Ooc Auto Theft Recovery: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Ooc Burglary: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Ooc Missing Person: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Ooc Murder: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Ooc Sexual Assault: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Open Door/Window: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Panic Alarm-Airport: MH=1 0.01% | MH=0 0.01% | Δ -0.00%
+    Parking Violation: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Pedestrian On Hsr: MH=1 1.51% | MH=0 0.97% | Δ 0.54%
+    Pedestrian On Road: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Pending Call: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Perimeter Check - Arpt: MH=1 0.03% | MH=0 0.03% | Δ 0.00%
+    Pickup Item/Evid: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Pin Duress: MH=1 0.00% | MH=0 0.09% | Δ -0.09%
+    Places Weapons Prohibited Air: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Poss Controlled Sub/Narcotic: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Poss Controlled Sub/Narcotic1: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Poss Controlled Sub/Syn Narc: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Poss Dang Drug: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Poss Drg Paraphernalia: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Poss Marijuana: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Poss Of Firearm By Felon: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Probation Violation: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Prostitution: MH=1 0.01% | MH=0 0.02% | Δ -0.01%
+    Provide Implement For Escape: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Prowler Hs: MH=1 0.51% | MH=0 0.67% | Δ -0.16%
+    Public Intox-Sobering Center: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Public Intoxication: MH=1 0.03% | MH=0 0.05% | Δ -0.02%
+    Public Lewdness: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Public Safety Assist Code 3: MH=1 0.01% | MH=0 0.01% | Δ 0.00%
+    Public Safety Assist Urgent: MH=1 0.01% | MH=0 0.01% | Δ 0.00%
+    Ra  From Afd-Emer: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Ra  From Ems-Emer: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Ra  From Pd-Emer: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Ra  From Pd-No Emer: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Ra Law: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Rape: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Rec Appreh/ Juven: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Reckless Driving: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Reckless Driving Info: MH=1 0.07% | MH=0 0.25% | Δ -0.17%
+    Recovered Runaway: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Req Appreh/Juvenile: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Request Apprehen: MH=1 0.00% | MH=0 0.02% | Δ -0.02%
+    Request To Locate: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Resisting Arrest Or Search: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Response To Resistance Report: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Retaliation: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Road Rage: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Robbery Alarm: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Robbery By Assault: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Robbery Hs: MH=1 0.03% | MH=0 0.09% | Δ -0.05%
+    Robbery Info: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Robbery Service: MH=1 0.06% | MH=0 0.17% | Δ -0.10%
+    Robbery Urgent: MH=1 0.05% | MH=0 0.22% | Δ -0.17%
+    Runaway Child: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Safety Alert: MH=1 0.04% | MH=0 0.03% | Δ 0.02%
+    Sapd - Actual Threat To Life: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Sapd - Non-Emergency: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Sapd - Potential Threat: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Se Noise Violation: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Se Parking Violation: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Secondary Employment: MH=1 0.03% | MH=0 0.01% | Δ 0.01%
+    Security Alarm-Airport: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Security Breach: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Security Checkpoint Assign: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Service: MH=1 4.73% | MH=0 2.92% | Δ 1.82%
+    Sex Crime Hs: MH=1 0.05% | MH=0 0.04% | Δ 0.01%
+    Sex Crime Service: MH=1 0.65% | MH=0 0.61% | Δ 0.04%
+    Sex Crime Urgent: MH=1 0.07% | MH=0 0.06% | Δ 0.01%
+    Sex Offender Compliance Check: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Sexual Assault: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Sexual Assault Information: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Sexual Assault Of A Child/Obj: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Shoot/Stab Hs: MH=1 0.06% | MH=0 0.10% | Δ -0.04%
+    Shoot/Stab Service: MH=1 0.02% | MH=0 0.06% | Δ -0.04%
+    Shoot/Stab Urgent: MH=1 0.02% | MH=0 0.04% | Δ -0.02%
+    Shoplifting: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Shots Fired: MH=1 0.13% | MH=0 1.76% | Δ -1.63%
+    Special Assignment: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Stalking: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Stalled Vehicle: MH=1 0.00% | MH=0 0.05% | Δ -0.05%
+    Structure Fire: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Subject Stop: MH=1 0.01% | MH=0 0.01% | Δ 0.00%
+    Suicide: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Susp Package: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Suspect Bag-Etd: MH=1 0.27% | MH=0 0.22% | Δ 0.05%
+    Suspic Person: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Suspic Vehicle: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Suspicious Package: MH=1 0.08% | MH=0 0.19% | Δ -0.11%
+    Suspicious Person: MH=1 9.17% | MH=0 6.26% | Δ 2.90%
+    Suspicious Unknown: MH=1 0.81% | MH=0 1.26% | Δ -0.45%
+    Suspicious Vehicle: MH=1 0.26% | MH=0 2.06% | Δ -1.81%
+    Tampering With Govt Record: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Tcso Emergency: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Tcso Non Emergency: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Terroristic Threat: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Theft: MH=1 0.34% | MH=0 0.96% | Δ -0.62%
+    Theft From Person: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Theft Information: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Theft Of Auto Parts: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Theft Of Bicycle: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Theft Of License Plate: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Theft Of Service: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Theft Of Trailer: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Trace: MH=1 0.89% | MH=0 0.17% | Δ 0.71%
+    Track/Missing Adult: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Traffic Fatality: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Traffic Hazard: MH=1 1.20% | MH=0 3.48% | Δ -2.28%
+    Traffic Hazard Hs: MH=1 0.25% | MH=0 3.04% | Δ -2.79%
+    Traffic Impediment: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Traffic Stop: MH=1 0.01% | MH=0 0.02% | Δ -0.01%
+    Transport Prisoner: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Trespass Urgent: MH=1 10.14% | MH=0 9.39% | Δ 0.75%
+    Trfc Hazd/ Debris: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Tsa Spot Assist: MH=1 0.01% | MH=0 0.02% | Δ -0.01%
+    Ucw: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Unauthorized Use Of Veh: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Union Pacific Crim Trespass: MH=1 0.01% | MH=0 0.02% | Δ -0.01%
+    Vehicle Fire: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Viol City Ordinance - Airport: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Viol Court Order No Epo/Po: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Viol Of Emerg Protective Ord: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Viol Of Park Curfew: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Viol Of Protective Order: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Warrant Arrest Non-Traffic: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Warrant Service: MH=1 0.02% | MH=0 0.03% | Δ -0.01%
+    Warrant Service - Airport: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Weap Inspect Checkpoint 3: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Weapon Inspect Airport: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Weather Alert: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Wmd Cbrne Hs: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Working School Zone: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Working Traffic: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Wrecker Request: MH=1 0.00% | MH=0 0.02% | Δ -0.02%
+    Wrong Way Driver: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Wrong Way Motorists On Hsr: MH=1 0.01% | MH=0 0.07% | Δ -0.07%
+
+Feature: Initial Problem Category
+  Categorical frequency (% rows)
+    Administrative: MH=1 0.18% | MH=0 0.39% | Δ -0.21%
+    Aggravated Assault: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Alarms: MH=1 0.55% | MH=0 11.55% | Δ -11.01%
+    Animal Related: MH=1 0.14% | MH=0 1.03% | Δ -0.89%
+    Arson: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Assistance: MH=1 3.57% | MH=0 4.19% | Δ -0.62%
+    Auto Theft: MH=1 0.22% | MH=0 3.57% | Δ -3.35%
+    Bomb/Explosives: MH=1 0.05% | MH=0 0.04% | Δ 0.01%
+    Burglary: MH=1 0.55% | MH=0 1.17% | Δ -0.62%
+    Child Abuse/Neglect: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Crashes: MH=1 0.44% | MH=0 7.80% | Δ -7.36%
+    DUI/DWI: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Deceased/Injured: MH=1 0.03% | MH=0 0.06% | Δ -0.03%
+    Disorderly Conduct: MH=1 0.56% | MH=0 3.15% | Δ -2.58%
+    Disturbance: MH=1 18.03% | MH=0 16.71% | Δ 1.32%
+    Drugs: MH=1 0.21% | MH=0 0.78% | Δ -0.57%
+    Evading/Resisting Arrest: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Fraud/Forgery: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Gambling: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Homicide: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Intimidation: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Lost/Found Property: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Missing Persons/Kidnapping: MH=1 1.35% | MH=0 0.91% | Δ 0.44%
+    Other: MH=1 8.76% | MH=0 7.43% | Δ 1.34%
+    Person Stop/FO: MH=1 0.02% | MH=0 0.02% | Δ -0.00%
+    Property Damage/Vandalism: MH=1 0.55% | MH=0 0.55% | Δ -0.00%
+    Prostitution: MH=1 0.01% | MH=0 0.02% | Δ -0.01%
+    Robbery: MH=1 0.15% | MH=0 0.48% | Δ -0.33%
+    Sex Crimes: MH=1 0.78% | MH=0 0.72% | Δ 0.06%
+    Shoot/Stab: MH=1 0.67% | MH=0 2.78% | Δ -2.11%
+    Simple Assault: MH=1 0.00% | MH=0 0.02% | Δ -0.01%
+    Suspicious Things: MH=1 11.09% | MH=0 10.78% | Δ 0.31%
+    Theft: MH=1 0.41% | MH=0 1.20% | Δ -0.80%
+    Traffic Stop/Hazard: MH=1 3.07% | MH=0 7.93% | Δ -4.87%
+    Trespassing: MH=1 10.17% | MH=0 9.53% | Δ 0.64%
+    Viol PO/Bond: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Warrants/RTA: MH=1 0.02% | MH=0 0.05% | Δ -0.03%
+    Weapons/Firearms Violations: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Welfare Check: MH=1 38.43% | MH=0 7.08% | Δ 31.35%
+    missing: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+
+Feature: Final Problem Description
+  Categorical frequency (% rows)
+    2010j: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    68a Inspection: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Aband Veh (Storage Facility): MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Abandoned Property: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Abandoned Refrigerator: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Abandoned Veh/Garagekeeper: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Abandoned Vehicle: MH=1 0.00% | MH=0 0.05% | Δ -0.04%
+    Abandoned/Endangered Child: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Abuse Of 911: MH=1 0.04% | MH=0 0.00% | Δ 0.03%
+    Abuse Of Corpse: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Accidental Death: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Accidental Drowning Death: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Accidental Drug Overdose: MH=1 0.05% | MH=0 0.04% | Δ 0.01%
+    Accidental Injury: MH=1 0.00% | MH=0 0.01% | Δ -0.00%
+    Accidental Shooting Injury: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Accidental Shooting Non Injur: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Agency Assist Hs: MH=1 0.02% | MH=0 0.08% | Δ -0.06%
+    Agg Aslt Enhanc Strangl/Suffo: MH=1 0.01% | MH=0 0.02% | Δ -0.01%
+    Agg Aslt Strangle/Suffocate: MH=1 0.04% | MH=0 0.09% | Δ -0.05%
+    Agg Assault: MH=1 0.19% | MH=0 0.40% | Δ -0.21%
+    Agg Assault Fam/Date Viol: MH=1 0.08% | MH=0 0.11% | Δ -0.03%
+    Agg Assault Motor Vehicle: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Agg Assault On Peace Officer: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Agg Asslt Motor Veh Fam/Date: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Agg Asslt On A Peace Officer: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Agg Asslt On Public Servant: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Agg Forced Sodomy Of Child: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Agg Kidnapping: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Agg Kidnapping Fam Viol: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Agg Rape: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Agg Rape Of A Child: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Agg Robbery By Assault: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Agg Robbery In Progress: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Agg Robbery/Deadly Weapon: MH=1 0.03% | MH=0 0.16% | Δ -0.14%
+    Agg Sex Aslt Of Child/Object: MH=1 0.00% | MH=0 0.01% | Δ -0.00%
+    Agg Sexual Assault: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Agg Sexual Assault Of Child: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Agg Sexual Assault W/Object: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Agg Sodomy: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Aircraft Alert 2: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Airport - Assist Federal Agen: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Airport - Federal Viol: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Airport - Found Marijuana: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Airport - Intelligence Info: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Airport - Suspicious Person: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Airport - Suspicious Pkg/Item: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Airport - Suspicious Veh: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Airport - Tsa Assist: MH=1 0.00% | MH=0 0.04% | Δ -0.04%
+    Airport Assist: MH=1 0.02% | MH=0 0.35% | Δ -0.33%
+    Airport Breach Of Security: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Airport Info: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Airport Unattended Bag / Lugg: MH=1 0.00% | MH=0 0.14% | Δ -0.14%
+    Airport-Criminal Trespass: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Aisd: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Alarm Burglar: MH=1 0.17% | MH=0 4.60% | Δ -4.43%
+    Alarm Dv: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Alarm Glass Break: MH=1 0.01% | MH=0 0.27% | Δ -0.26%
+    Alarm Gps Violation: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Alarm Other: MH=1 0.01% | MH=0 0.20% | Δ -0.19%
+    Alarm Robbery: MH=1 0.01% | MH=0 0.47% | Δ -0.46%
+    Animal Bite: MH=1 0.00% | MH=0 0.04% | Δ -0.04%
+    Animal Service: MH=1 0.01% | MH=0 0.16% | Δ -0.16%
+    Animal Urgent: MH=1 0.10% | MH=0 0.76% | Δ -0.66%
+    Aps Referral: MH=1 0.01% | MH=0 0.00% | Δ 0.01%
+    Arson: MH=1 0.01% | MH=0 0.01% | Δ -0.00%
+    Arson Information: MH=1 0.00% | MH=0 0.01% | Δ -0.00%
+    Arson With Bodily Injury: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Assault By Contact: MH=1 0.22% | MH=0 0.26% | Δ -0.04%
+    Assault By Contact Fam/Dating: MH=1 0.09% | MH=0 0.08% | Δ 0.01%
+    Assault By Contact-Sexual Nat: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Assault By Threat: MH=1 0.13% | MH=0 0.14% | Δ -0.00%
+    Assault By Threat Fam/Date: MH=1 0.03% | MH=0 0.02% | Δ 0.02%
+    Assault Info Fam Viol: MH=1 0.04% | MH=0 0.04% | Δ -0.00%
+    Assault Information: MH=1 0.18% | MH=0 0.25% | Δ -0.06%
+    Assault Juvenile Vs Juvenile: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Assault Of A Pregnant Woman: MH=1 0.00% | MH=0 0.01% | Δ -0.00%
+    Assault Of Prgnant Wm-Fam/Dat: MH=1 0.00% | MH=0 0.01% | Δ -0.00%
+    Assault On Peace Officer: MH=1 0.05% | MH=0 0.02% | Δ 0.02%
+    Assault On Public Servant: MH=1 0.03% | MH=0 0.02% | Δ 0.01%
+    Assault W/Injury-Fam/Date Vio: MH=1 0.62% | MH=0 0.78% | Δ -0.16%
+    Assault With Injury: MH=1 0.64% | MH=0 0.85% | Δ -0.21%
+    Assist Boat: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Assist City Department: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Assist City Dept: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Assist Code 3: MH=1 0.01% | MH=0 0.06% | Δ -0.05%
+    Assist Complainant: MH=1 2.75% | MH=0 2.40% | Δ 0.35%
+    Assist Dps: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Assist Ems: MH=1 2.20% | MH=0 1.25% | Δ 0.95%
+    Assist Fire Department: MH=1 0.02% | MH=0 0.15% | Δ -0.13%
+    Assist Motorist: MH=1 0.01% | MH=0 0.08% | Δ -0.08%
+    Assist Motorist Blocking: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Assist Motorist/Public: MH=1 0.03% | MH=0 0.41% | Δ -0.38%
+    Assist Non Emergency: MH=1 0.89% | MH=0 1.52% | Δ -0.63%
+    Assist Other  Agency: MH=1 0.08% | MH=0 0.13% | Δ -0.06%
+    Assist Other Agency: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Assist Other Police Agency: MH=1 0.02% | MH=0 0.02% | Δ 0.00%
+    Assist Tcso: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Att Arson: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Att Auto Theft: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Att Burglary Non Residence: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Att Burglary Of Residence: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Att Burglary/Non-Residence: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Att Burglary/Residence: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Att Kidnapping: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Att Rape: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Att Sexual Assault: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Att Theft: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Attack By Dog: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Attempt Suicide: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Attempted Suicide Hs: MH=1 1.09% | MH=0 0.00% | Δ 1.09%
+    Auto Theft: MH=1 0.03% | MH=0 0.39% | Δ -0.36%
+    Auto Theft Bait Vehicle: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Auto Theft Information: MH=1 0.01% | MH=0 0.11% | Δ -0.10%
+    Auto Theft Recovery: MH=1 0.01% | MH=0 0.29% | Δ -0.28%
+    Auto Theft Service: MH=1 0.13% | MH=0 2.61% | Δ -2.48%
+    Bait Auto Theft: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Beastiality: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Blocked Drive/Roadway: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Blue Form Collision: MH=1 0.01% | MH=0 0.25% | Δ -0.24%
+    Boat Crash / Accident: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Bomb Hs: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Bomb Threat: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Bomb Threat Urgent: MH=1 0.01% | MH=0 0.01% | Δ -0.00%
+    Bomb Threat/Aircraft: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Bribery: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Burg Non Residence Sheds: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Burg Of Res-Fam/Dateing Aslt: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Burg Of Res-Sexual Nature: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Burg Of Residence Fam/Date: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Burglary Hs: MH=1 0.09% | MH=0 0.25% | Δ -0.16%
+    Burglary Information: MH=1 0.03% | MH=0 0.13% | Δ -0.10%
+    Burglary Non Res Service: MH=1 0.01% | MH=0 0.08% | Δ -0.08%
+    Burglary Non Residence: MH=1 0.02% | MH=0 0.19% | Δ -0.17%
+    Burglary Non Residence Hs: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Burglary Non Residence Urgent: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Burglary Of A Coin Machine: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Burglary Of Residence: MH=1 0.04% | MH=0 0.15% | Δ -0.10%
+    Burglary Of Vehicle: MH=1 0.02% | MH=0 0.16% | Δ -0.14%
+    Burglary Of Vehicle No Sus/Fu: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Burglary Res Service: MH=1 0.02% | MH=0 0.07% | Δ -0.05%
+    Burglary Urgent: MH=1 0.05% | MH=0 0.22% | Δ -0.17%
+    Burglary Vehicle: MH=1 0.03% | MH=0 0.19% | Δ -0.17%
+    Burglary/Non-Residence: MH=1 0.01% | MH=0 0.08% | Δ -0.07%
+    Burglary/Residence: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Burglary/Vehicle: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Call From Tcso - Emergency: MH=1 0.01% | MH=0 0.03% | Δ -0.03%
+    Call From Tcso - Non Emergenc: MH=1 0.01% | MH=0 0.05% | Δ -0.04%
+    Camping In Park: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Ccd / Counselor: MH=1 0.05% | MH=0 0.00% | Δ 0.05%
+    Check Welfare: MH=1 0.01% | MH=0 0.00% | Δ 0.01%
+    Check Welfare Service: MH=1 8.76% | MH=0 2.30% | Δ 6.46%
+    Check Welfare Urgent: MH=1 11.14% | MH=0 3.01% | Δ 8.13%
+    Checking Area: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Child Abuse Info: MH=1 0.05% | MH=0 0.09% | Δ -0.04%
+    Child Endangerment: MH=1 0.01% | MH=0 0.03% | Δ -0.02%
+    Child In Need Of Supervision: MH=1 0.01% | MH=0 0.01% | Δ -0.01%
+    City Ordinance - Smoking: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Civil Disturbance/Dem: MH=1 0.01% | MH=0 0.01% | Δ -0.00%
+    Civil Issue: MH=1 0.03% | MH=0 0.07% | Δ -0.04%
+    Civilian Involved Incident: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Cmv Inspection: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Co Sit/Lie In Public Walks Dt: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Co Viol 1 Agg Confrontation: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Co Viol 1 Camping: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Co Viol 1 Obstruction: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Co Viol 2 Camping: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Co Viol Camping: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Collision: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Collision City Vehicle: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Collision/Auto-Bike: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Collision/Auto-Cycle: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Collision/Auto-Pedestrian: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Collision/Leaving The Scene: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Collision/Minor Injury: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Collision/Private Property: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Collision/Serious Injury: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Community Pol - Bsn/Res Visit: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Community Pol - Meeting: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Community Pol - Special Event: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Community Pol - Youth Program: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Community Police: MH=1 0.11% | MH=0 0.08% | Δ 0.02%
+    Cont Sex Abuse Of Child: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Cont Viol Against Family: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Contempt Of Court: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Counterfeiting: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Counterfeiting Info: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Covid-19 Face Mask Viol: MH=1 0.00% | MH=0 0.04% | Δ -0.04%
+    Covid-19 Gathering Violation: MH=1 0.00% | MH=0 0.07% | Δ -0.07%
+    Cps Referral: MH=1 0.01% | MH=0 0.01% | Δ -0.00%
+    Crash Auto And Motorcycle: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Crash Auto And Pedestrian: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Crash Blue Form: MH=1 0.02% | MH=0 0.48% | Δ -0.46%
+    Crash Cr3: MH=1 0.06% | MH=0 1.37% | Δ -1.31%
+    Crash Ems Responding: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Crash Hs: MH=1 0.08% | MH=0 1.35% | Δ -1.27%
+    Crash Leaving The Scene: MH=1 0.02% | MH=0 0.54% | Δ -0.51%
+    Crash Minor Injury: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Crash Private Property: MH=1 0.00% | MH=0 0.02% | Δ -0.02%
+    Crash Serious Injury: MH=1 0.00% | MH=0 0.03% | Δ -0.02%
+    Crash Service: MH=1 0.05% | MH=0 1.09% | Δ -1.04%
+    Crash Urgent: MH=1 0.11% | MH=0 2.29% | Δ -2.17%
+    Crash With Auto And Bicycle: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Crash With City Vehicle: MH=1 0.00% | MH=0 0.03% | Δ -0.02%
+    Crash/Intox Manslaughter: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Crash/Intoxication Assault: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Credit Card Abuse: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Credit Card Abuse Exp/Cancel: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Credit Card Abuse Other: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Credit Card Abuse/Forgery: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Crim Mischief: MH=1 0.02% | MH=0 0.04% | Δ -0.02%
+    Crim Trespass: MH=1 0.02% | MH=0 0.01% | Δ 0.00%
+    Crim Trespass Hotel: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Crim Trespass Transient: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Crim Trsps/Trnst: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Crimes Against Elderly: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Criminal Apprehension Team: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Criminal Mischief: MH=1 0.27% | MH=0 0.45% | Δ -0.18%
+    Criminal Mischief By Arson: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Criminal Mischief Information: MH=1 0.02% | MH=0 0.02% | Δ 0.00%
+    Criminal Solicitation: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Criminal Solicitation Of Mino: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Criminal Trespass: MH=1 1.08% | MH=0 0.76% | Δ 0.32%
+    Criminal Trespass Notice: MH=1 1.75% | MH=0 1.45% | Δ 0.30%
+    Criminal Trespass Notice - Co: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Criminal Trespass/In Vehicle: MH=1 0.00% | MH=0 0.01% | Δ -0.00%
+    Cruelty To Animals: MH=1 0.01% | MH=0 0.03% | Δ -0.02%
+    Cruelty/Animals: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Custody Arrest Traffic Warran: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Damage City Prop: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Damage City Vehicle: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Damage To City Property Info: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Dangerous Animal: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Dangerous Drug Violation: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Dangerousanimal-Firearm Used: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Dating Violence: MH=1 0.01% | MH=0 0.01% | Δ -0.00%
+    Deadly Conduct: MH=1 0.02% | MH=0 0.09% | Δ -0.07%
+    Deadly Conduct Fam/Date Viol: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Death Due To Natural Cause: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Debit Card Abuse: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Deceas/Pers/Susp: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Deceased Person: MH=1 0.13% | MH=0 0.40% | Δ -0.27%
+    Deceased/Natural-N: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Deliver C/S Narcotic: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Deliver C/S Other: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Deliver C/S-Narcotic: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Deliver Controlled Sub/Syn Na: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Deliver Message: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Deliver Of Marijuana: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Delivery C/S Narcotic: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Dependant & Neglected Child: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Desecration Venerated Object: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Directed Patrol: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Discharge Gun-Public: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Disclose/Promo Intimate Visua: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Disposal Of Solid Waste: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    District Representative: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Disturbance Hs: MH=1 1.06% | MH=0 1.95% | Δ -0.89%
+    Disturbance Other: MH=1 6.07% | MH=0 5.94% | Δ 0.13%
+    Disturbance Service: MH=1 0.70% | MH=0 1.06% | Δ -0.36%
+    Disturbance Urgent: MH=1 1.89% | MH=0 1.84% | Δ 0.05%
+    Disturbance Vehicle Urgent: MH=1 0.02% | MH=0 0.16% | Δ -0.14%
+    Disturbance Verbal: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Disturbance W/Gun: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Disturbance/Othr: MH=1 0.02% | MH=0 0.02% | Δ -0.00%
+    Disturbance/Verbal: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Doc / C.o. Violation: MH=1 0.39% | MH=0 2.81% | Δ -2.42%
+    Doc Abuse Or Threat: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Doc Abusive Language: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Doc Discharge Gun In Public: MH=1 0.00% | MH=0 0.06% | Δ -0.05%
+    Doc Discharge Gun In Road: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Doc Display Firearm In Public: MH=1 0.01% | MH=0 0.03% | Δ -0.02%
+    Doc Offensive Gesture: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Doc Unreasonable Noise: MH=1 0.01% | MH=0 0.02% | Δ -0.01%
+    Doc Window Peep Residence: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Doc Window Peeping-Pub Area: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Doc-Display Gun: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Doc-Exposure: MH=1 0.07% | MH=0 0.02% | Δ 0.05%
+    Doc-Fighting: MH=1 0.01% | MH=0 0.03% | Δ -0.02%
+    Doc-Noise: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Doc-Window Peep: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Dog Ordinance Violation: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Drone Involved: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Drugs: MH=1 0.10% | MH=0 0.31% | Δ -0.21%
+    Drugs Service: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Dui - Age 17-20: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Dui Age 16 And Under: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Dump Refuse/Hwy: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Dumping Refuse Near Highway: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Dwi: MH=1 0.05% | MH=0 0.48% | Δ -0.43%
+    Dwi - Juvenile: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Dwi .15 Bac Or Above: MH=1 0.00% | MH=0 0.05% | Δ -0.04%
+    Dwi / Felony: MH=1 0.01% | MH=0 0.04% | Δ -0.04%
+    Dwi Child Passenger: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Dwi/2nd Offense: MH=1 0.01% | MH=0 0.04% | Δ -0.03%
+    Dwi/Dre Drug Recognition Exp: MH=1 0.01% | MH=0 0.02% | Δ -0.02%
+    Dwli Driving W/ License Inval: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Edp Caller: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Edp Commitment: MH=1 0.02% | MH=0 0.00% | Δ 0.02%
+    Edp Emotionally Disturbed Per: MH=1 2.32% | MH=0 0.00% | Δ 2.32%
+    Edp Intervention: MH=1 2.41% | MH=0 0.00% | Δ 2.41%
+    Edp Intervention W/Contact: MH=1 7.44% | MH=0 0.00% | Δ 7.44%
+    Edp No Contact: MH=1 0.78% | MH=0 0.00% | Δ 0.78%
+    Edp Telehealth: MH=1 0.01% | MH=0 0.00% | Δ 0.01%
+    Edp Voluntary: MH=1 1.65% | MH=0 0.00% | Δ 1.65%
+    Eluding: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Emerg Det / Firearms Seizure: MH=1 0.05% | MH=0 0.00% | Δ 0.05%
+    Emergency Detention: MH=1 9.17% | MH=0 0.00% | Δ 9.17%
+    Emergency Protective Order: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Engaging In Organized Crime: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Enticing A Child: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Escape From Mental Institutio: MH=1 0.01% | MH=0 0.00% | Δ 0.01%
+    Escape Fromcustody: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Escort Other: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Evading / Vehicle: MH=1 0.00% | MH=0 0.03% | Δ -0.02%
+    Evading Arrest: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Evading Foot: MH=1 0.06% | MH=0 0.06% | Δ 0.00%
+    Evading/Veh Pursuit: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Exploitation Of Child/Elderly: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Explosive Ordinance Disposal: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Fail Reg Sex Off: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Failure Stop And Render Aid: MH=1 0.01% | MH=0 0.17% | Δ -0.15%
+    Failure To Identify: MH=1 0.02% | MH=0 0.03% | Δ -0.01%
+    Failure To Report Child Abuse: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    False Alarm Or Report: MH=1 0.02% | MH=0 0.09% | Δ -0.07%
+    False Burglar Alarm: MH=1 0.15% | MH=0 5.01% | Δ -4.86%
+    False Report To Police: MH=1 0.01% | MH=0 0.01% | Δ -0.00%
+    False Robbery Alarm: MH=1 0.02% | MH=0 0.46% | Δ -0.44%
+    False Statement For Credit: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Family Disturban: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Family Disturbance: MH=1 2.95% | MH=0 2.52% | Δ 0.43%
+    Family Disturbance/Parental: MH=1 0.09% | MH=0 0.05% | Δ 0.04%
+    Federal Aviation Violation: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Federal Cases: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Federal Viol/Oth: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Fel Enhanced Aslt W/Inj: MH=1 0.01% | MH=0 0.01% | Δ -0.00%
+    Ficticious Dl / Id Card: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Ficticious License Plate: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Fictitious Dl / Id Card: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Fictitious Inspection Sticker: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Fictitious License Plate: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Field Observation: MH=1 0.05% | MH=0 0.04% | Δ 0.01%
+    Firearm Surrender: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Firearms: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Firearms On School Property: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Fireworks Ordinance Violation: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Flag Down: MH=1 0.00% | MH=0 0.01% | Δ -0.00%
+    Flooded Roadway: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Fo Card: MH=1 0.09% | MH=0 0.09% | Δ 0.00%
+    Follow Up Investigation: MH=1 0.04% | MH=0 0.07% | Δ -0.03%
+    Forced Sodomy: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Forced Sodomy Of Child: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Forgery And Passing: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Forgery By Alteration: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Forgery By Making: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Forgery Of Identification: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Forgery Other: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Forgery/Passing: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Found Adult: MH=1 0.02% | MH=0 0.01% | Δ 0.02%
+    Found Child: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Found Controlled Substance: MH=1 0.02% | MH=0 0.05% | Δ -0.03%
+    Found Firearm: MH=1 0.00% | MH=0 0.02% | Δ -0.02%
+    Found License Plate: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Found Property: MH=1 0.02% | MH=0 0.08% | Δ -0.07%
+    Found/Abandoned Hazardous: MH=1 0.03% | MH=0 0.32% | Δ -0.29%
+    Fraud Destruction Of Writing: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Fraud Filing Finance Statemen: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Fraud Other: MH=1 0.01% | MH=0 0.03% | Δ -0.02%
+    Fraud-Card Skimmer: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Funeral Escort: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Gambling: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Gambling Information: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Gang Info: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Gang Injunction: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Graffitti: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Grass Fire: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Gun Hs: MH=1 0.09% | MH=0 0.23% | Δ -0.14%
+    Gun Other: MH=1 0.04% | MH=0 0.13% | Δ -0.09%
+    Gun Urgent: MH=1 0.08% | MH=0 0.21% | Δ -0.14%
+    Hang-Up Misdial: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Hang-Up Mobile: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Hang-Up Residence: MH=1 0.00% | MH=0 0.07% | Δ -0.06%
+    Hang-Ups: MH=1 0.01% | MH=0 0.28% | Δ -0.27%
+    Harassment: MH=1 0.10% | MH=0 0.12% | Δ -0.02%
+    Harassment Of Public Servant: MH=1 0.03% | MH=0 0.01% | Δ 0.02%
+    Harassment Online: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Harboring A Runaway: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Hate Crime Info: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Hazardous Traffic Citation: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    High Speed Roadway Crash: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    High Water Reprt: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Hinder Secured Creditors: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Hindering Apprehension: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Homicide Information: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Human Trafficking Info: MH=1 0.01% | MH=0 0.01% | Δ -0.01%
+    Icy Roadway: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Id Property Crimes: MH=1 0.01% | MH=0 0.23% | Δ -0.22%
+    Identity Theft: MH=1 0.00% | MH=0 0.01% | Δ -0.00%
+    Illum Aircraft Intense Light: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Impersonating Public Servant: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Impound/Repo Veh Non-Apd: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Impounded Animal: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Impounded Veh/Prop Sale: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Impounded Vehicle: MH=1 0.00% | MH=0 0.04% | Δ -0.04%
+    Improper Contact/Sex Aslt Vic: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Improper Visual Record/Photo: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Indecency W A Child Exposure: MH=1 0.00% | MH=0 0.01% | Δ -0.00%
+    Indecency W/ A Child Contact: MH=1 0.01% | MH=0 0.02% | Δ -0.01%
+    Indecency/Child: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Indecent Assault: MH=1 0.02% | MH=0 0.02% | Δ -0.01%
+    Indecent Exposur: MH=1 0.07% | MH=0 0.04% | Δ 0.03%
+    Indentity Theft Info: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Information: MH=1 0.05% | MH=0 0.04% | Δ 0.01%
+    Information - Recent Bov: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Inhalant Abuse: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Inj To Disabled Fam/Date Viol: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Inj To Elderly Fam/Date Viol: MH=1 0.02% | MH=0 0.00% | Δ 0.02%
+    Inj/Child Fv(No Care/Custody): MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Injured Animal: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Injured Animal - Firearm Used: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Injury To A Child: MH=1 0.01% | MH=0 0.03% | Δ -0.01%
+    Injury To Disabled: MH=1 0.01% | MH=0 0.01% | Δ -0.00%
+    Injury To Elderly: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Injury To Elderly Person: MH=1 0.06% | MH=0 0.04% | Δ 0.02%
+    Injury To Elderly-Sbi: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Intellegence Information: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Interfering W/ Emerg Call: MH=1 0.02% | MH=0 0.02% | Δ -0.01%
+    Interfering W/ Emr Call F/V: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Interfering With Public Duty: MH=1 0.01% | MH=0 0.00% | Δ 0.00%
+    Intoxication Assault: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Intoxication Manslaughter: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Intrfere Custody: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Intrfere With Child Custody: MH=1 0.02% | MH=0 0.04% | Δ -0.02%
+    Invasive Visual Rec-Juvenile: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Invasive Visual Recording: MH=1 0.00% | MH=0 0.01% | Δ -0.00%
+    Issuance Of A Bad Check: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Jugging: MH=1 0.00% | MH=0 0.01% | Δ -0.00%
+    Keep Gambling/Place: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Kidnapping: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Kidnapping Abduction Hs: MH=1 0.02% | MH=0 0.06% | Δ -0.04%
+    Kidnapping Fam Viol: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Kidnapping Information: MH=1 0.00% | MH=0 0.01% | Δ -0.00%
+    Kids Calling: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Leo Verify: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Liquor Law Violation/Other: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Littering: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Loose Livestock: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Lost Property: MH=1 0.01% | MH=0 0.01% | Δ -0.00%
+    Lvl 4 R2r: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Mail Theft: MH=1 0.00% | MH=0 0.02% | Δ -0.01%
+    Mail Theft Info: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Making Tobacco Avail To Minor: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Manpads: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Manslaughter: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Manslaughter/Traffic: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Manufacturing C/S: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Manufacturing C/S Syn Narc: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Mental Health Transport: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Mischief / Vandalism: MH=1 0.35% | MH=0 0.42% | Δ -0.07%
+    Misrep Age By Minor: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Missing Adult: MH=1 0.09% | MH=0 0.02% | Δ 0.07%
+    Missing Child: MH=1 0.01% | MH=0 0.01% | Δ -0.00%
+    Missing Hs: MH=1 0.32% | MH=0 0.09% | Δ 0.24%
+    Missing Service: MH=1 0.43% | MH=0 0.50% | Δ -0.06%
+    Murder: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Narcotic Tip: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Narcotics Information: MH=1 0.01% | MH=0 0.02% | Δ -0.01%
+    Nature Unknown: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Nature Unknown Urgent: MH=1 1.17% | MH=0 2.34% | Δ -1.17%
+    Non Emergency Refusal: MH=1 0.02% | MH=0 0.06% | Δ -0.04%
+    Nuisance Abatement: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Obscene Display/Distribution: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Obscenity: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Obstruction Highway Passage: MH=1 0.02% | MH=0 0.00% | Δ 0.01%
+    Obtain C/S By Fraud: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Obvious Threat-Etd: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Ocd - Organized Crime: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Officer Involved Incident: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Officer Involved Shooting: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Officer Needs Assistance Hs: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    On Site Incident: MH=1 0.00% | MH=0 0.03% | Δ -0.03%
+    Online Impersonation: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Online Solicitation Of Minor: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Ooc Agg Assault: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Ooc Auto Theft: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Ooc Auto Theft Recovery: MH=1 0.00% | MH=0 0.04% | Δ -0.04%
+    Ooc Burglary: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Ooc Missing Person: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Ooc Murder: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Ooc Offense Other: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Ooc Robbery: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Ooc Sexual Assault: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Ooc Theft: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Open Door/Window: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Other Agency Involved Inciden: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Other Fire: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Overdose Meth: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Overdose Opiate: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Overdose Synthetic: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Panic Alarm-Airport: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Parking Citation: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Parking Violation: MH=1 0.00% | MH=0 0.03% | Δ -0.03%
+    Parole Violation: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Pedestrian In Road: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Pedestrian On Hsr: MH=1 1.29% | MH=0 0.96% | Δ 0.33%
+    Pedestrian On Road: MH=1 0.04% | MH=0 0.01% | Δ 0.03%
+    Perimeter Check - Arpt: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Person Down: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Pickup Item/Evid: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Pigeon Drop: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Pin Duress: MH=1 0.00% | MH=0 0.09% | Δ -0.09%
+    Places Weapons Prohibited Air: MH=1 0.00% | MH=0 0.02% | Δ -0.02%
+    Pocket Picking: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Poss Alcohol Age 16 And Under: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Poss Alcohol Age 17-20: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Poss Controlled Sub/Narcotic: MH=1 0.14% | MH=0 0.19% | Δ -0.05%
+    Poss Controlled Sub/Narcotic1: MH=1 0.01% | MH=0 0.01% | Δ -0.00%
+    Poss Controlled Sub/Other: MH=1 0.00% | MH=0 0.01% | Δ -0.00%
+    Poss Controlled Sub/Syn Narc: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Poss Criminal Instrument: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Poss Dang Drug: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Poss Drg Paraphernalia: MH=1 0.03% | MH=0 0.03% | Δ 0.00%
+    Poss Marijuana: MH=1 0.01% | MH=0 0.02% | Δ -0.01%
+    Poss Of Firearm By Felon: MH=1 0.01% | MH=0 0.02% | Δ -0.01%
+    Poss Of Prohibited Weapon: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Poss Synthetic Marijuana: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Poss/Promo Child Pornography: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Posses Dang/Drug: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Possession Of Forged Writing: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Probation Violation: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Promotion Of Prostitution: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Prostitution: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Protective Order: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Prowler: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Prowler Hs: MH=1 0.26% | MH=0 0.50% | Δ -0.24%
+    Public Intox-Sobering Center: MH=1 0.06% | MH=0 0.05% | Δ 0.01%
+    Public Intoxicat: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Public Intoxication: MH=1 0.40% | MH=0 0.26% | Δ 0.14%
+    Public Intoxication/Juvenile: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Public Lewdness: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Public Safety Assist Code 3: MH=1 0.01% | MH=0 0.01% | Δ -0.00%
+    Public Safety Assist Urgent: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Purchasing Prostitution: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Purse Snatching: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Rape: MH=1 0.01% | MH=0 0.03% | Δ -0.02%
+    Rape Of A Child: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Reckless Damage: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Reckless Driving: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Reckless Driving Info: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Recovered Runaway: MH=1 0.03% | MH=0 0.06% | Δ -0.03%
+    Reg Sex Offender: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Reg Sex Offender Info: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Reg Sex Offender Info Minor V: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Rental Car/Fail To Return: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Repeat Recovered Runaway: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Repeat Runaway: MH=1 0.01% | MH=0 0.02% | Δ -0.00%
+    Req Appreh/Juvenile: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Request Apprehen: MH=1 0.56% | MH=0 0.43% | Δ 0.13%
+    Request To Locate: MH=1 0.13% | MH=0 0.03% | Δ 0.10%
+    Resisting Arrest Or Search: MH=1 0.09% | MH=0 0.06% | Δ 0.03%
+    Response To Resistance Report: MH=1 0.01% | MH=0 0.00% | Δ 0.00%
+    Retaliation: MH=1 0.01% | MH=0 0.01% | Δ -0.00%
+    Road Rage: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Robbery: MH=1 0.00% | MH=0 0.01% | Δ -0.00%
+    Robbery By Assault: MH=1 0.01% | MH=0 0.09% | Δ -0.08%
+    Robbery By Threat: MH=1 0.01% | MH=0 0.03% | Δ -0.02%
+    Robbery Hs: MH=1 0.01% | MH=0 0.03% | Δ -0.03%
+    Robbery Info: MH=1 0.02% | MH=0 0.04% | Δ -0.02%
+    Robbery Service: MH=1 0.02% | MH=0 0.09% | Δ -0.07%
+    Robbery Urgent: MH=1 0.03% | MH=0 0.10% | Δ -0.07%
+    Rock Throwing Information: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Runaway Child: MH=1 0.08% | MH=0 0.09% | Δ -0.01%
+    Runaway Located: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Safety Alert: MH=1 0.00% | MH=0 0.01% | Δ -0.00%
+    Sale Or Purchase Of Child: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Salvage Inspection: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Se Noise Violation: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Se Parking Violation: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Securing Exec/Doc By Deceptio: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Security Breach: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Security Checkpoint Assign: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Service: MH=1 3.43% | MH=0 2.48% | Δ 0.94%
+    Sex Asslt/Child: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Sex Crime Hs: MH=1 0.01% | MH=0 0.02% | Δ -0.00%
+    Sex Crime Service: MH=1 0.37% | MH=0 0.36% | Δ 0.02%
+    Sex Crime Urgent: MH=1 0.02% | MH=0 0.02% | Δ -0.00%
+    Sex Offender Compliance Check: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Sexting Depicting A Minor: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Sexting/Transmit Sexual Photo: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Sexual Assault: MH=1 0.02% | MH=0 0.04% | Δ -0.02%
+    Sexual Assault Information: MH=1 0.08% | MH=0 0.06% | Δ 0.01%
+    Sexual Assault Of A Child: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Sexual Assault Of A Child/Obj: MH=1 0.01% | MH=0 0.01% | Δ -0.00%
+    Sexual Assault W/Object: MH=1 0.00% | MH=0 0.01% | Δ -0.00%
+    Sexual Coercion: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Sexual Performance By A Child: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Shoot/Stab Hs: MH=1 0.02% | MH=0 0.05% | Δ -0.03%
+    Shoot/Stab Service: MH=1 0.01% | MH=0 0.03% | Δ -0.02%
+    Shoot/Stab Urgent: MH=1 0.01% | MH=0 0.02% | Δ -0.01%
+    Shoplifting: MH=1 0.03% | MH=0 0.05% | Δ -0.02%
+    Shots Fired: MH=1 0.08% | MH=0 1.61% | Δ -1.53%
+    Sleep/Public Place: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Smuggling Illegal Alien: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Solicitation Child: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Solicitation-Begging: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Special Assignment: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Stalking: MH=1 0.01% | MH=0 0.02% | Δ -0.01%
+    Stalking Info: MH=1 0.01% | MH=0 0.01% | Δ 0.00%
+    Stalled Vehicle: MH=1 0.00% | MH=0 0.03% | Δ -0.03%
+    Statutory Rape Of A Child: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Structure Fire: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Subject Stop: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Suicide: MH=1 0.09% | MH=0 0.00% | Δ 0.09%
+    Suspected Sexual Assault: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Suspicious Activity-Terrorism: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Suspicious Noise: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Suspicious Odor: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Suspicious Package: MH=1 0.02% | MH=0 0.16% | Δ -0.14%
+    Suspicious Person: MH=1 7.32% | MH=0 5.60% | Δ 1.71%
+    Suspicious Unknown: MH=1 0.46% | MH=0 1.07% | Δ -0.61%
+    Suspicious Vehicle: MH=1 0.20% | MH=0 1.97% | Δ -1.77%
+    Take Weapon From Police Offic: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Tamper/Evidence: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Tampering W/ Consumer Prods: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Tampering With Evidence: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Tampering With Govt Record: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Tampering With Id Number: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Tampering With Witness: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Tcso Emergency: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Tcso Non Emergency: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Terrorist Information: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Terroristic Threat: MH=1 0.19% | MH=0 0.19% | Δ 0.00%
+    Terroristic Threat-Fam/Dat V: MH=1 0.03% | MH=0 0.02% | Δ 0.01%
+    Terroristic Threat-Mass Caslt: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Theft: MH=1 0.35% | MH=0 0.99% | Δ -0.64%
+    Theft Appropriate Stolen Prop: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Theft By Check: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Theft By Embezzlement: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Theft By Extortion: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Theft By False Pretext/Bunco: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Theft From Auto: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Theft From Building: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Theft From Person: MH=1 0.01% | MH=0 0.03% | Δ -0.02%
+    Theft Information: MH=1 0.04% | MH=0 0.08% | Δ -0.04%
+    Theft Of Auto Parts: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Theft Of Bicycle: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Theft Of License Plate: MH=1 0.00% | MH=0 0.01% | Δ -0.00%
+    Theft Of Metal: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Theft Of Service: MH=1 0.00% | MH=0 0.02% | Δ -0.01%
+    Theft Of Trailer: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Theft Of Vehicle Other: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Theft/Heavy Equipment: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Tobacco Viol Under Age 17: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Trace: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Traffic Fatality: MH=1 0.00% | MH=0 0.02% | Δ -0.02%
+    Traffic Hazard: MH=1 1.05% | MH=0 3.69% | Δ -2.64%
+    Traffic Hazard Hs: MH=1 0.14% | MH=0 2.39% | Δ -2.24%
+    Traffic Hazard Hsr: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Traffic Hazard/Debris: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Traffic Impediment: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Traffic Signal Inoperative: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Traffic Stop: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Traffic Violation Other: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Trafficking Of Persons: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Transport Prisoner: MH=1 0.00% | MH=0 0.02% | Δ -0.02%
+    Trespass Service: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Trespass Urgent: MH=1 6.79% | MH=0 7.15% | Δ -0.36%
+    Truancy: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Tsa Spot Assist: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Ucw: MH=1 0.01% | MH=0 0.04% | Δ -0.03%
+    Ucw On Licensed Premises: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Uipp: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Unauth Use M/V: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Unauthorized Use Of Veh: MH=1 0.01% | MH=0 0.10% | Δ -0.09%
+    Union Pacific Crim Trespass: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Unknown Suspicious: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Unl Carry-Lic Holder: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Unlawful Carry Knife-Edu: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Unlawful Restraint: MH=1 0.01% | MH=0 0.01% | Δ -0.00%
+    Unlawful Restraint Fam/Date V: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Vehicle Fire: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Vio Protorder / Fv: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Viol City Ordina: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Viol City Ordinance - Airport: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Viol City Ordinance - Booting: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Viol City Ordinance Sound: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Viol Civ Rights Custody/Supvn: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Viol Court Order No Epo/Po: MH=1 0.01% | MH=0 0.01% | Δ -0.00%
+    Viol Of Bond Conditions: MH=1 0.01% | MH=0 0.01% | Δ -0.00%
+    Viol Of Emerg Protective Ord: MH=1 0.03% | MH=0 0.04% | Δ -0.00%
+    Viol Of Park Curfew: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Viol Of Protective Order: MH=1 0.03% | MH=0 0.06% | Δ -0.03%
+    Viol State Law / Other: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Viol Stay Away Order: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Viol Temp Ex Parte Order: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Violation Camping Ordinance: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Voco - Alcohol Consumption: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Voyeurism-Peeping Tom: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Warrant Arrest Non-Traffic: MH=1 0.03% | MH=0 0.02% | Δ 0.01%
+    Warrant Service: MH=1 0.00% | MH=0 0.02% | Δ -0.02%
+    Weapon Inspect Airport: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Weapon Violation Other: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Window Peep/Hotel: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Wmd Cbrne Hs: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Working Traffic: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Wrecker Ordinance Violation: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Wrecker Request: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Wrong Way Motorists On Hsr: MH=1 0.00% | MH=0 0.07% | Δ -0.07%
+
+Feature: Final Problem Category
+  Categorical frequency (% rows)
+    Administrative: MH=1 0.17% | MH=0 0.47% | Δ -0.30%
+    Aggravated Assault: MH=1 0.36% | MH=0 0.73% | Δ -0.37%
+    Alarms: MH=1 0.40% | MH=0 11.13% | Δ -10.73%
+    Animal Related: MH=1 0.12% | MH=0 1.02% | Δ -0.90%
+    Arson: MH=1 0.02% | MH=0 0.02% | Δ -0.01%
+    Assistance: MH=1 6.13% | MH=0 6.75% | Δ -0.63%
+    Auto Theft: MH=1 0.19% | MH=0 3.55% | Δ -3.36%
+    Bomb/Explosives: MH=1 0.01% | MH=0 0.01% | Δ -0.00%
+    Burglary: MH=1 0.28% | MH=0 1.20% | Δ -0.92%
+    Child Abuse/Neglect: MH=1 0.09% | MH=0 0.18% | Δ -0.09%
+    Crashes: MH=1 0.39% | MH=0 7.67% | Δ -7.28%
+    DUI/DWI: MH=1 0.07% | MH=0 0.65% | Δ -0.57%
+    Deceased/Injured: MH=1 0.14% | MH=0 0.42% | Δ -0.28%
+    Disorderly Conduct: MH=1 1.04% | MH=0 3.47% | Δ -2.43%
+    Disturbance: MH=1 12.84% | MH=0 13.57% | Δ -0.73%
+    Drugs: MH=1 0.43% | MH=0 1.01% | Δ -0.58%
+    Evading/Resisting Arrest: MH=1 0.20% | MH=0 0.19% | Δ 0.01%
+    Fraud/Forgery: MH=1 0.04% | MH=0 0.12% | Δ -0.09%
+    Gambling: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Homicide: MH=1 0.00% | MH=0 0.02% | Δ -0.01%
+    Intimidation: MH=1 0.52% | MH=0 0.52% | Δ 0.00%
+    Lost/Found Property: MH=1 0.03% | MH=0 0.17% | Δ -0.14%
+    Missing Persons/Kidnapping: MH=1 1.19% | MH=0 0.94% | Δ 0.25%
+    Other: MH=1 4.77% | MH=0 5.43% | Δ -0.66%
+    Person Stop/FO: MH=1 0.06% | MH=0 0.06% | Δ -0.00%
+    Property Damage/Vandalism: MH=1 0.67% | MH=0 0.96% | Δ -0.28%
+    Prostitution: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    Robbery: MH=1 0.14% | MH=0 0.57% | Δ -0.43%
+    Sex Crimes: MH=1 0.66% | MH=0 0.71% | Δ -0.06%
+    Shoot/Stab: MH=1 0.33% | MH=0 2.28% | Δ -1.95%
+    Simple Assault: MH=1 2.02% | MH=0 2.45% | Δ -0.43%
+    Suspicious Things: MH=1 8.27% | MH=0 9.46% | Δ -1.19%
+    Theft: MH=1 0.50% | MH=0 1.59% | Δ -1.09%
+    Traffic Stop/Hazard: MH=1 2.55% | MH=0 7.27% | Δ -4.72%
+    Trespassing: MH=1 9.65% | MH=0 9.39% | Δ 0.26%
+    Viol PO/Bond: MH=1 0.09% | MH=0 0.12% | Δ -0.04%
+    Warrants/RTA: MH=1 0.59% | MH=0 0.47% | Δ 0.13%
+    Weapons/Firearms Violations: MH=1 0.02% | MH=0 0.08% | Δ -0.06%
+    Welfare Check: MH=1 45.02% | MH=0 5.32% | Δ 39.70%
+    missing: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+
+Feature: Number of Units Arrived
+  Numeric: mean(MH=1) = 2.079, mean(MH=0) = 1.929
+  Δ mean           = 0.150
+
+Feature: Unit Time on Scene
+  Numeric: mean(MH=1) = 6929.780, mean(MH=0) = 5729.409
+  Δ mean           = 1200.371
+
+Feature: Call Disposition Description
+  Categorical frequency (% rows)
+    10/8 From Traffic: MH=1 0.33% | MH=0 0.50% | Δ -0.17%
+    Arrest only: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+    Citation and Arrest: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Citation only: MH=1 0.00% | MH=0 0.01% | Δ -0.01%
+    District Representatives: MH=1 0.02% | MH=0 0.02% | Δ -0.00%
+    False Alarm: MH=1 0.37% | MH=0 10.15% | Δ -9.78%
+    Field Observation: MH=1 0.04% | MH=0 0.04% | Δ 0.01%
+    No Report: MH=1 33.00% | MH=0 43.06% | Δ -10.06%
+    No Report MH: MH=1 4.77% | MH=0 0.00% | Δ 4.77%
+    Non-Police Matter: MH=1 1.06% | MH=0 1.66% | Δ -0.60%
+    Primary unit will adv: MH=1 0.02% | MH=0 0.02% | Δ -0.00%
+    Reassigned call: MH=1 0.01% | MH=0 0.01% | Δ -0.00%
+    Report Written: MH=1 26.92% | MH=0 25.71% | Δ 1.21%
+    Report Written MH: MH=1 16.53% | MH=0 0.00% | Δ 16.53%
+    Supplement Written: MH=1 2.94% | MH=0 2.12% | Δ 0.82%
+    Telehealth No Report: MH=1 0.02% | MH=0 0.00% | Δ 0.02%
+    Telehealth Not Used: MH=1 0.00% | MH=0 0.00% | Δ 0.00%
+    Telehealth Report Written: MH=1 0.03% | MH=0 0.00% | Δ 0.03%
+    Unable To Locate: MH=1 13.93% | MH=0 16.71% | Δ -2.78%
+    Warning: MH=1 0.00% | MH=0 0.00% | Δ -0.00%
+
+Feature: Report Written Flag
+  Categorical frequency (% rows)
+    No: MH=1 73.16% | MH=0 74.69% | Δ -1.52%
+    Yes: MH=1 26.84% | MH=0 25.31% | Δ 1.52%
+
+Feature: Response Time
+  Numeric: mean(MH=1) = 2165.798, mean(MH=0) = 2098.211
+  Δ mean           = 67.587
+
+Feature: Officer Injured/Killed Count
+  Numeric: mean(MH=1) = 0.000, mean(MH=0) = 0.000
+  Δ mean           = 0.000
+
+Feature: Subject Injured/Killed Count
+  Numeric: mean(MH=1) = 0.000, mean(MH=0) = 0.000
+  Δ mean           = 0.000
+
+Feature: Other Injured/Killed Count
+  Numeric: mean(MH=1) = 0.000, mean(MH=0) = 0.000
+  Δ mean           = 0.000
+
+Feature: Geo ID
+  Numeric: mean(MH=1) = 484542240189.392, mean(MH=0) = 484545161295.946
+  Δ mean           = -2921106.554
+
+Feature: Census Block Group
+  Numeric: mean(MH=1) = 4542240189.392, mean(MH=0) = 4545161295.946
+  Δ mean           = -2921106.554
+
+Feature: ResponseToArrival
+  Numeric: mean(MH=1) = 2144.439, mean(MH=0) = 2039.693
+  Δ mean           = 104.746
+
+Feature: ArrivalToClose
+  Numeric: mean(MH=1) = 4052.365, mean(MH=0) = 3344.012
+  Δ mean           = 708.352
+
+Feature: ResponseLagRatio
+  Numeric: mean(MH=1) = 7.161, mean(MH=0) = 9.983
+  Δ mean           = -2.823
+
+Feature: RespToArr_DiffMed
+  Numeric: mean(MH=1) = 1184.229, mean(MH=0) = 1041.330
+  Δ mean           = 142.899
+
+Feature: CallComplexity
+  Numeric: mean(MH=1) = 0.381, mean(MH=0) = 0.205
+  Δ mean           = 0.176
+
+Feature: ChangedCategory
+  Numeric: mean(MH=1) = 0.314, mean(MH=0) = 0.216
+  Δ mean           = 0.098
+
+Feature: Hour
+  Numeric: mean(MH=1) = 13.240, mean(MH=0) = 12.801
+  Δ mean           = 0.439
+
+Feature: DayOfWeek
+  Numeric: mean(MH=1) = 2.935, mean(MH=0) = 3.029
+  Δ mean           = -0.095
+
+Feature: IsWeekend
+  Numeric: mean(MH=1) = 0.267, mean(MH=0) = 0.290
+  Δ mean           = -0.023
+
+Feature: Hour_x_Weekend
+  Numeric: mean(MH=1) = 3.494, mean(MH=0) = 3.587
+  Δ mean           = -0.093
+
+Feature: IsFedHoliday
+  Numeric: mean(MH=1) = 0.027, mean(MH=0) = 0.029
+  Δ mean           = -0.002
+
+Feature: Season
+  Categorical frequency (% rows)
+    mild: MH=1 43.57% | MH=0 42.09% | Δ 1.49%
+    cold: MH=1 30.60% | MH=0 31.93% | Δ -1.34%
+    hot: MH=1 25.83% | MH=0 25.98% | Δ -0.15%
+
+Feature: HourSin
+  Numeric: mean(MH=1) = -0.193, mean(MH=0) = -0.149
+  Δ mean           = -0.044
+
+Feature: HourCos
+  Numeric: mean(MH=1) = -0.118, mean(MH=0) = -0.050
+  Δ mean           = -0.068
+
+Feature: WDaySin
+  Numeric: mean(MH=1) = 0.020, mean(MH=0) = -0.016
+  Δ mean           = 0.036
+
+Feature: WDayCos
+  Numeric: mean(MH=1) = -0.003, mean(MH=0) = -0.009
+  Δ mean           = 0.006
+
+Feature: IsNight
+  Numeric: mean(MH=1) = 0.201, mean(MH=0) = 0.247
+  Δ mean           = -0.046
+
+Feature: IsPayday
+  Numeric: mean(MH=1) = 0.066, mean(MH=0) = 0.066
+  Δ mean           = -0.000
+
+Feature: BG_Cluster
+  Numeric: mean(MH=1) = 9.836, mean(MH=0) = 9.630
+  Δ mean           = 0.206
+
+Feature: SectorScore
+  Numeric: mean(MH=1) = 1.132, mean(MH=0) = 1.020
+  Δ mean           = 0.112
+
+Feature: FinalProbCatScore
+  Numeric: mean(MH=1) = 1.311, mean(MH=0) = 0.577
+  Δ mean           = 0.734
+
+Feature: CallDispScore
+  Numeric: mean(MH=1) = 1.039, mean(MH=0) = 0.579
+  Δ mean           = 0.460
+
+Feature: InitProbDescScore
+  Numeric: mean(MH=1) = 1.617, mean(MH=0) = 1.030
+  Δ mean           = 0.586
+
+Feature: PriorityNum
+  Numeric: mean(MH=1) = 1.657, mean(MH=0) = 1.757
+  Δ mean           = -0.100
+
+Feature: EscalatedCall
+  Numeric: mean(MH=1) = 0.431, mean(MH=0) = 0.299
+  Δ mean           = 0.131
+
+Feature: MH_KeywordFlag
+  Numeric: mean(MH=1) = 0.511, mean(MH=0) = 0.077
+  Δ mean           = 0.434
+
+Feature: IsWelfareCheck
+  Numeric: mean(MH=1) = 0.514, mean(MH=0) = 0.077
+  Δ mean           = 0.437
+
+Feature: MH_DispoFlag
+  Numeric: mean(MH=1) = 0.213, mean(MH=0) = 0.000
+  Δ mean           = 0.213
+
+Feature: IsAlarmCall
+  Numeric: mean(MH=1) = 0.006, mean(MH=0) = 0.117
+  Δ mean           = -0.112
+
+Feature: IsTrafficHazard
+  Numeric: mean(MH=1) = 0.034, mean(MH=0) = 0.084
+  Δ mean           = -0.050
+
+Feature: DaysSincePrevCall
+  Numeric: mean(MH=1) = 0.023, mean(MH=0) = 0.026
+  Δ mean           = -0.003
+
+Feature: InitDescWC
+  Numeric: mean(MH=1) = 2.428, mean(MH=0) = 2.263
+  Δ mean           = 0.165
+
+Feature: FinalDescWC
+  Numeric: mean(MH=1) = 2.420, mean(MH=0) = 2.361
+  Δ mean           = 0.058
+
+Feature: TotalInjuries
+  Numeric: mean(MH=1) = 0.000, mean(MH=0) = 0.000
+  Δ mean           = 0.000
+
+Feature: CallDuration
+  Numeric: mean(MH=1) = 6196.804, mean(MH=0) = 5383.705
+  Δ mean           = 813.099
+
+Feature: ServiceFraction
+  Numeric: mean(MH=1) = 0.664, mean(MH=0) = 0.615
+  Δ mean           = 0.050
+
