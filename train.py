@@ -1,4 +1,4 @@
-# train.py
+## if you see this, add a feature that measures the length of the numbers (i.e. number of decimals)
 from typing import Any, Dict
 import pandas as pd
 import numpy as np
@@ -137,9 +137,9 @@ if __name__ == "__main__":
                                'Call Closed Datetime'])
 
     # split by date
-    def get_subset(frame, mask, n=2_000, seed=42):
+    def get_subset(frame, mask, n=20_000, seed=42):
         subset = frame[mask]
-        take   = min(n, len(subset))
+        take   = min(n, len(subset))            # don’t error if < n rows
         return subset.sample(n=take, random_state=seed)
 
     train = get_subset(df, df['Response Datetime'] <  '2022-01-01')
@@ -210,12 +210,7 @@ if __name__ == "__main__":
     dev_df.fillna(0, inplace=True)
     X_train = train_df
     X_dev = dev_df
-
-    p = (y_train == 1).mean()
-    n = (y_train == 0).mean()
-    print(f"Train set prevalence: MH=1 {p:.2%} | MH=0 {n:.2%}")
     
-    # TRAINING LIGHTGBM MODEL
     import optuna, lightgbm as lgb, numpy as np
     from sklearn.model_selection import StratifiedKFold
     from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
@@ -231,10 +226,7 @@ if __name__ == "__main__":
     def objective(trial):
         params = {
             "objective": "binary",
-            "alpha": 0.7,
-            "gamma": 0.5,
-            "is_unbalance": True,  # handle class imbalance
-            "metric":    "None",
+            "metric":    "None",        # we supply custom feval
             "learning_rate": trial.suggest_float("lr", 0.01, 0.2, log=True),
             "num_leaves":    trial.suggest_int("num_leaves", 32, 256, log=True),
             "max_depth":     trial.suggest_int("max_depth",  -1, 12),
@@ -243,6 +235,7 @@ if __name__ == "__main__":
             "colsample_bytree": trial.suggest_float("colsample_bytree", 0.6, 1.0),
             "lambda_l1": trial.suggest_float("lambda_l1", 0.0, 5.0),
             "lambda_l2": trial.suggest_float("lambda_l2", 0.0, 5.0),
+            "scale_pos_weight": (y_train==0).sum()/(y_train==1).sum(), # class-weight
             "verbosity": -1,
             "feature_pre_filter": False,
         }
@@ -268,18 +261,18 @@ if __name__ == "__main__":
         min_prec = 0.50
 
         best_recall, best_thr = -1, None
-
         for thr in np.arange(0.05, 0.96, 0.01):
-            pred  = (oof_pred > thr).astype(int)
-            prec  = precision_score(y_train, pred, zero_division=0)
-            rec   = recall_score(y_train, pred, zero_division=0)
+            pred = (oof_pred > thr).astype(int)
+            prec = precision_score(y_train, pred, zero_division=0)
+            rec  = recall_score(y_train, pred, zero_division=0)
 
+            # keep only thresholds that meet both floors
             if prec >= min_prec and rec > best_recall:
                 best_recall, best_thr = rec, thr
 
         if best_thr is None:
             raise RuntimeError(
-                f"No threshold found with precision ≥{min_prec:.2f}"
+                "No threshold on dev meets precision≥0.50!"
             )
 
         trial.set_user_attr("best_threshold", best_thr)
